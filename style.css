@@ -20,9 +20,10 @@
   position: relative;
   overflow: hidden;
 }
-.w3-container h3,
+
 .w3-container p {
   text-align: center;
+  font-weight: bold;
 }
 
 .purchase-button {
@@ -37,11 +38,30 @@
   transition: opacity 0.3s;
   opacity: 0;
 }
-
+.w3-row {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 .w3-card-4:hover .purchase-button {
   opacity: 1;
 }
 h3 {
   margin-left: 50px;
   font-weight: bold;
+}
+/* -----footer------ */
+li {
+  list-style: none;
+  padding: 10px;
+}
+.foo h3,
+.foo img {
+  margin-bottom: 20px;
+}
+.foo h3 {
+  padding: 30px 20px;
+}
+li input {
+  padding: 10px 10px;
+  border-radius: 0 20px;
 }
