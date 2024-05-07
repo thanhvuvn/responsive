@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- w3 -->
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Trang sản phẩm</title>
+  </head>
+  <body>
+    <div class="w3-bar w3-black">
+      <a href="#" class="w3-bar-item w3-button">Trang chủ</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Giới Thiệu</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Sản Phẩm </a>
+      <img src="./img/logo.webp" alt="logo" class="w3-bar-item logo" />
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Tin Tức</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Thực Đơn</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Liên Hệ</a>
+      <a
+        href="javascript:void(0)"
+        class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+
+    <div
+      id="demo"
+      class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium"
+    >
+      <a href="#" class="w3-bar-item w3-button">Giới Thiệu</a>
+      <a href="#" class="w3-bar-item w3-button">Sản Phẩm</a>
+      <a href="#" class="w3-bar-item w3-button">Tin Tức</a>
+      <a href="#" class="w3-bar-item w3-button">Thực Đơn </a>
+      <a href="#" class="w3-bar-item w3-button">Liên Hệ</a>
+    </div>
+
+    <!-- content -->
+    <div class="w3-row">
+      <div class="w3-col s12 m12 l12 img">
+        <img src="./img/slider_1.webp" alt="" />
+      </div>
+
+      <!-- thức uống -->
+      <div class="w3-row">
+        <!-- 1 -->
+        <h3>Trà Nóng</h3>
+        <div class="w3-col s12 m6 l3 img">
+          <div class="w3-card-4">
+            <div class="w3-container">
+              <img
+                src="./img/travai.webp"
+                alt="Avatar"
+                class="w3-left w3-circle"
+              />
+              <h3>Trà Vải</h3>
+              <p>30.000đ</p>
+            </div>
+            <button class="w3-button w3-block w3-dark-grey purchase-button">
+              Mua Hàng
+            </button>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="w3-col s12 m6 l3 img">
+          <div class="w3-card-4">
+            <div class="w3-container">
+              <img
+                src="./img/tradau.webp"
+                alt="Avatar"
+                class="w3-left w3-circle"
+              />
+              <h3>Trà Đào</h3>
+              <p>30.000đ</p>
+            </div>
+            <button class="w3-button w3-block w3-dark-grey purchase-button">
+              Mua hàng
+            </button>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="w3-col s12 m6 l3 img">
+          <div class="w3-card-4">
+            <div class="w3-container">
+              <img
+                src="./img/trâto.webp"
+                alt="Avatar"
+                class="w3-left w3-circle"
+              />
+              <h3>Trà Táo</h3>
+              <p>35.000đ</p>
+            </div>
+            <button class="w3-button w3-block w3-dark-grey purchase-button">
+              Mua hàng
+            </button>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="w3-col s12 m6 l3 img">
+          <div class="w3-card-4">
+            <div class="w3-container">
+              <img
+                src="./img/trachanh.webp"
+                alt="Avatar"
+                class="w3-left w3-circle"
+              />
+              <h3>Trà Chanh</h3>
+              <p>40.000đ</p>
+            </div>
+            <button class="w3-button w3-block w3-dark-grey purchase-button">
+              Mua hàng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------footer-------- -->
+    <footer class="w3-container w3-black">
+      <div class="w3-row">
+        <div class="w3-col s12 m4 l4">
+          <img src="./img/logo.webp" alt="logo" />
+          <h4>
+            Chúng tôi mong muốn Tea House sẽ trở thành “Nhà Trà", nơi mọi người
+            xích lại gần nhau và tìm thấy niềm vui, sự sẻ chia thân tình bên
+            những tách cà phê đượm hương, chất lượng.
+          </h4>
+        </div>
+        <div class="w3-col s12 m4 l4">
+          <h3>Liên Hệ Chúng Tôi</h3>
+          <div class="address">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>
+              Địa chỉ: Tâng 6 toà nhà Ladeco, 266 Đội Cấn, phường Liễu Giai, Hà
+              Nội,
+            </p>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            Hotline đặt bàn: 1900 6750Hotline giao hàng: 1900 6750
+          </div>
+        </div>
+        <div class="w3-col s12 m4 l4">
+          <h3>Đăng Ký Nhận Khuyến Mãi</h3>
+          <p>Đừng bỏ lỡ những sản phẩm và chương trình khuyến mãi hấp dẫn</p>
+          <div class="email">
+            <form
+              action="
+            "
+            ></form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

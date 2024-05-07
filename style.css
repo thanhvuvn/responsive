@@ -1,0 +1,47 @@
+.img img {
+  width: 100%;
+  height: auto;
+}
+.w3-bar {
+  display: flex;
+  align-items: center;
+}
+
+.w3-bar-item {
+  flex: 1;
+}
+
+.logo {
+  max-height: 100%;
+}
+.w3-card-4 {
+  padding: 30px;
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+.w3-container h3,
+.w3-container p {
+  text-align: center;
+}
+
+.purchase-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.w3-card-4:hover .purchase-button {
+  opacity: 1;
+}
+h3 {
+  margin-left: 50px;
+  font-weight: bold;
+}
